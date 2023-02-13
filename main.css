@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 100%;
+    height: 800px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call{
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    border: 30px solid black;
+}
+
+.child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    animation: call 1.5s infinite ease-in-out;
+}
+
+@keyframes call{
+    from{
+         rotate: 0deg;
+    }
+   to{
+    rotate: 150deg;
+   }
+
+}
+
